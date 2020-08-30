@@ -1,0 +1,50 @@
+<div class="fondo">
+  <link rel="stylesheet" href="api.component.css" />
+  <header>
+    <img src="../../assets/imagenes/1324823tmezwh9ulx.gif" />
+    <br />
+    <img src="../../assets/imagenes/1324823tmezwh9ulx.gif" />
+    <br />
+    <img src="../../assets/imagenes/1324823tmezwh9ulx.gif" />
+    <br />
+    <img src="../../assets/imagenes/1324823tmezwh9ulx.gif" />
+    <br />
+    <img src="../../assets/imagenes/1324823tmezwh9ulx.gif" />
+    <br />
+    <img src="../../assets/imagenes/1324823tmezwh9ulx.gif" />
+    <br />
+    <img src="../../assets/imagenes/1324823tmezwh9ulx.gif" />
+  </header>
+
+  <div class="s01">
+    <form>
+      <div class="inner-form">
+        <div class="input-field third-wrap">
+          <button
+            class="btn-search"
+            type="button"
+            onclick="javascript:location.href='/'"
+          >
+            Regresar
+          </button>
+          <h1>Resultados</h1>
+        </div>
+      </div>
+      <div class="imagen">
+        <div *ngFor="let i of gifs.data" class="card">
+          <img
+            [src]="i.images.original.url"
+            title="{{ i.title }}"
+            height="220px"
+            width="250px"
+          />
+          <br />
+          <a href="{{ i.url }}" target="_blank">ver gif</a>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="footer-text">
+    <p>&copy; EASD VENEZUELA| Todos los Derechos Reservados</p>
+  </div>
+</div>

@@ -1,0 +1,36 @@
+.final {
+  background: url("../../assets/imagenes/magallanes.gif");
+  background-size: cover;
+  height: 50px;
+}
+
+h1 {
+  color: blue;
+  font-family: cursive;
+  text-align: center;
+  margin-top: 100px;
+}
+
+input {
+  width: 500px;
+  height: 30px;
+  border: blue;
+  margin-left: 450px;
+  margin-top: -50px;
+  background: lightseagreen;
+  color: red;
+  font-size: 26px;
+}
+
+button {
+  margin-left: 650px;
+  margin-top: 30px;
+  background: lightseagreen;
+  color: blue;
+  font-size: 19px;
+}
+
+p {
+  color: chartreuse;
+  margin-top: 270px;
+}
